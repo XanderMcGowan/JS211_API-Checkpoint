@@ -23,6 +23,8 @@ body {
 
 .fact-display {
     font-family: 'IBM Plex Mono', monospace;
+    width: 60vw;
+    text-align: center;
 }
 
 #more {
