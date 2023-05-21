@@ -1,1 +1,70 @@
-/* font-family: 'IBM Plex Mono', monospace; */
+
+
+body {
+    background-color: #FFEDDF;
+}
+
+.title {
+    border: 1px solid red;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact {
+    border: 1px solid blue;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-display {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#more {
+    margin-top: 3vh;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2vw;
+}
+
+button {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    margin: 1vh;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #23262F;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    will-change: box-shadow,transform;
+  }
+
+  button:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+  }
