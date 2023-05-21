@@ -1,4 +1,5 @@
 let arrayOfChuck;
+
 document.getElementById("more").style.display = "none"
 
 // This function waits for the web page to be loaded, when it does it will run the code inside of it which happens to be getPosts()
@@ -21,8 +22,14 @@ const displayFact = () => {
 };
 
 const more = () => {
+  getPosts()
+  console.log(arrayOfChuck.value)
+  document.getElementById("fact-display").innerHTML = ""
     getPosts()
-     displayFact();
+    setTimeout(() => {
+      document.getElementById("fact-display").innerHTML = arrayOfChuck.value;
+    }, "90");
+    console.log("fart")
  
 }
 

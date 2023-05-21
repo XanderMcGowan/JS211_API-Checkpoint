@@ -5,7 +5,7 @@ body {
 }
 
 .title {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
 }
 
 .fact {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,10 @@ body {
 }
 
 #more {
-    margin-top: 3vh;
+  text-align: center;
+    margin-top: 5vh;
+    display: none;
+
 }
 
 h1 {
